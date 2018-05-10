@@ -23,7 +23,7 @@ public class Generator {
 		// ִmybatis generator
 		List<String> warnings = new ArrayList<String>();
 	    boolean overwrite = true;
-	    String fileName = "./src/configuration.xml";
+	    String fileName = "./src/generatorConfig.xml";
 	    File configFile = new File(fileName);
 	    ConfigurationParser cp = new ConfigurationParser(warnings);
 	    Configuration config = null;
