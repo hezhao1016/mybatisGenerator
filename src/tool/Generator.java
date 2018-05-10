@@ -14,16 +14,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- * @author weiguobin
+ * 生成Mybatis代码
+ * @author hezhao
  * @date 2016年2月29日
  */
 public class Generator {
 	public static void main(String[] args) {
-		//ִ��mybatis generator 
+		// ִmybatis generator
 		List<String> warnings = new ArrayList<String>();
 	    boolean overwrite = true;
-	    String fileName = "./src/paySettle_configuration.xml";
+	    String fileName = "./src/configuration.xml";
 	    File configFile = new File(fileName);
 	    ConfigurationParser cp = new ConfigurationParser(warnings);
 	    Configuration config = null;
