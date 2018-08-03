@@ -15,6 +15,7 @@ import java.util.List;
 
 /**
  * 生成Mybatis代码
+ *
  * @author hezhao
  * @date 2016年2月29日
  */
